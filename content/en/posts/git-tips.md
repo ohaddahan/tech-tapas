@@ -41,7 +41,7 @@ This `hook` simple creates a new `branch` and `push` it, and returns to the orig
 
 Simple yet highly effective.
 
-## Tip #2:
+## Tip #2: fsmonitor daemon
 
 [fsmonitor--daemon](https://git-scm.com/docs/git-fsmonitor--daemon) improves performance of `git` commands by listening
 to file system changes and updating the index accordingly.
