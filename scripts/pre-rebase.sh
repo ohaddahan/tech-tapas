@@ -1,7 +1,5 @@
 #!/bin/bash
 set -x
-echo HELLO
-exit 1
 source ./scripts/helpers.sh
 function git_branch_name()
 {
