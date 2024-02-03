@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
-git pull
-git submodule sync
-git submodule update --init --recursive
+source ./scripts/helpers.sh
+ensure git pull
+ensure git submodule sync
+ensure git submodule update --init --recursive
