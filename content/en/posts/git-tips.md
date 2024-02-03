@@ -6,13 +6,13 @@ draft = false
 
 ## Tip #1: git hooks
 
-[githooks](https://git-scm.com/docs/githooks) are scripts that run `pre`/`post` every `git` command you run in your
+[git hooks](https://git-scm.com/docs/githooks) are scripts that run `pre`/`post` every `git` command you run in your
 repository.
 
-Using [githooks](https://git-scm.com/docs/githooks) you can ensure all team members run certain checks prior to doing
+Using [git hooks](https://git-scm.com/docs/githooks) you can ensure all team members run certain checks prior to doing
 various actions, such as `commit`.
 
-To create a [githooks](https://git-scm.com/docs/githooks) check `.git/hooks` directory in your repository.
+To create a [git hooks](https://git-scm.com/docs/githooks) check `.git/hooks` directory in your repository.
 It contains sample scripts, to enable one, rename the script and remove the `.sample` suffix.
 
 ### Pre-commit
@@ -26,6 +26,21 @@ This is effectively a must-have for any project with more than one developer.
 
 ### Pre-rebase
 
+`rebase` is a powerful tool, but it can be dangerous and lead to lose of work by accident.
+One way to prevent this is to backup your current branch using a `pre-rebase` hook.
+
+This `hook` simple creates a new `branch` and `push` it, and returns to the original `branch`.
+
+Simple yet highly effective.
+
 ## Tip #2:
 
-`alias gitfsmonitor_status='git fsmonitor--daemon status'`
+[fsmonitor--daemon](https://git-scm.com/docs/git-fsmonitor--daemon) improves performance of `git` commands by listening
+to file system changes and updating the index accordingly.
+
+This is very significant for large repositories and have little down side to using it.
+
+## References
+
+* [git hooks](https://git-scm.com/docs/githooks)
+* [Improve Git monorepo performance with a file system monitor](https://github.blog/2022-06-29-improve-git-monorepo-performance-with-a-file-system-monitor/)
