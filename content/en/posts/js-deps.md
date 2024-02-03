@@ -4,7 +4,7 @@ date = 2024-01-28T09:22:33+02:00
 draft = false
 +++
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/lg64youncuy41gksf37m.jpeg)
+![node modules](https://imagedelivery.net/3RKw_J_fJQ_4KpJP3_YgXA/cbd0351a-87d7-42ea-674d-a14e95bb2e00/public)
 
 Just about anyone who worked on the JavaScript ecosystem has faced annoying issues due to version mismatch ,
 dependencies updates etc. , I want to share a few small tips that helped me mitigate some of the issues.

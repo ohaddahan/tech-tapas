@@ -1,6 +1,6 @@
 baseURL = 'https://ohaddahan.github.io/tech-rant/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Tech Rant'
 theme = "hugo-blog-awesome"
 
 # This defines how dates are formatted
@@ -50,10 +50,10 @@ name = 'Posts'
 url = '/posts/'
 weight = 20
 [[Languages.en-us.menu.main]]
-pageRef = "about"
-name = 'About'
-url = '/about/'
-weight = 30
+#pageRef = "about"
+#name = 'About'
+#url = '/about/'
+#weight = 30
 
 [Languages.en-us.params]
 sitename = "Awesome hugo blog"
@@ -83,7 +83,7 @@ avatar = "avatar.jpg" # put the file in assets folder; also ensure that image ha
 # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
 intro = "Tech Rant"
 name = "Ohad Dahan"
-description = "Tech Rant"
+description = "Blog"
 
 # Allow to override webmanifest options
 [Languages.en-us.params.webmanifest]

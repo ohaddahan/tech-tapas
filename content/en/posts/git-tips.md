@@ -4,7 +4,7 @@ date = 2024-01-28T09:22:33+02:00
 draft = false
 +++
 
-![Image description](https://miro.medium.com/v2/resize:fit:1200/format:webp/0*VcMPr1unIjAIHw2j.jpg)
+![one does not simply understand git](https://imagedelivery.net/3RKw_J_fJQ_4KpJP3_YgXA/87312442-fd73-4fb3-b763-78a5e4f85500/public)
 
 ## Tip #1: git hooks
 

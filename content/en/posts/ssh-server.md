@@ -4,7 +4,7 @@ date = 2024-01-28T09:22:33+02:00
 draft = false
 +++
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/9k9yke2eba2qgkks7w46.jpg)
+![ssh server](https://imagedelivery.net/3RKw_J_fJQ_4KpJP3_YgXA/b39d0532-c7bd-4909-05e1-acf63aaf9a00/public)
 
 ## Disable root login
 
