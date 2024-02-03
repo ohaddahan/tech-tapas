@@ -4,6 +4,8 @@ date = 2024-01-28T09:22:33+02:00
 draft = false
 +++
 
+![Image description](https://miro.medium.com/v2/resize:fit:1200/format:webp/0*VcMPr1unIjAIHw2j.jpg)
+
 ## Tip #1: git hooks
 
 [git hooks](https://git-scm.com/docs/githooks) are scripts that run `pre`/`post` every `git` command you run in your
