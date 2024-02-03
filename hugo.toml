@@ -1,6 +1,6 @@
 baseURL = 'https://ohaddahan.github.io/tech-rant/'
 languageCode = 'en-us'
-title = 'Tech Rant'
+title = 'Tech Tapas'
 theme = "hugo-blog-awesome"
 
 # This defines how dates are formatted
@@ -81,9 +81,9 @@ rssFeedDescription = "summary" # available options: 1) summary 2) full
 [Languages.en-us.params.author]
 avatar = "avatar.jpg" # put the file in assets folder; also ensure that image has same height and width
 # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
-intro = "Tech Rant"
+intro = "Tech Tapas"
 name = "Ohad Dahan"
-description = "Blog"
+description = "Short format blog on tech"
 
 # Allow to override webmanifest options
 [Languages.en-us.params.webmanifest]
