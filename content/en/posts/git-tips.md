@@ -17,6 +17,13 @@ It contains sample scripts, to enable one, rename the script and remove the `.sa
 
 ### Pre-commit
 
+One of the most common hooks is `pre-commit`, usually used for running formatters to avoid "formatting wars" between
+users.
+
+For example [prettier](https://prettier.io/docs/en/install) instructions how to enable `prettier` as a `pre-commit`
+hook.
+This is effectively a must-have for any project with more than one developer.
+
 ### Pre-rebase
 
 ## Tip #2:
