@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 err() {
     printf 'hook failed: %s\n' "$1" >&2
