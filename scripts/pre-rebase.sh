@@ -1,4 +1,5 @@
 #!/bin/bash
+echo HELLO
 set -x
 source ./scripts/helpers.sh
 function git_branch_name()
