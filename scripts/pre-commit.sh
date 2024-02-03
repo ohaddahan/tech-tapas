@@ -1,4 +1,4 @@
 #!/bin/bash
-echo 'commit'
+echo 'commit blabla'
 set -x
 ./scripts/sync.sh
