@@ -27,14 +27,14 @@ hook.
 This is effectively a must-have for any project with more than one developer.
 
 This `blog` has a `git submodule` , I have setup
-a [pre-commit](https://github.com/ohaddahan/tech-rant/blob/master/scripts/pre-commit.sh) hook to ensure the `submodule`
+a [pre-commit](https://github.com/ohaddahan/tech-tapes/blob/master/scripts/pre-commit.sh) hook to ensure the `submodule`
 is up-to-date.
 
 ### Pre-rebase
 
 `rebase` is a powerful tool, but it can be dangerous and lead to lose of work by accident.
 One way to prevent this is to backup your current branch using a
-[pre-rebase](https://github.com/ohaddahan/tech-rant/blob/master/scripts/pre-rebase.sh)
+[pre-rebase](https://github.com/ohaddahan/tech-tapes/blob/master/scripts/pre-rebase.sh)
 hook.
 
 This `hook` simple creates a new `branch` and `push` it, and returns to the original `branch`.
@@ -55,6 +55,6 @@ and ensure all users set them up.
 
 ## References
 
-* [sample hooks](https://github.com/ohaddahan/tech-rant/tree/master/scripts)
+* [sample hooks](https://github.com/ohaddahan/tech-tapes/tree/master/scripts)
 * [git hooks](https://git-scm.com/docs/githooks)
 * [Improve Git monorepo performance with a file system monitor](https://github.blog/2022-06-29-improve-git-monorepo-performance-with-a-file-system-monitor/)

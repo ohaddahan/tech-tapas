@@ -1,4 +1,4 @@
-baseURL = 'https://ohaddahan.github.io/tech-rant/'
+baseURL = 'https://ohaddahan.github.io/tech-tapes/'
 languageCode = 'en-us'
 title = 'Tech Tapas'
 theme = "hugo-blog-awesome"
