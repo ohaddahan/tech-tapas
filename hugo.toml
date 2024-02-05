@@ -83,7 +83,7 @@ avatar = "avatar.jpg" # put the file in assets folder; also ensure that image ha
 # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
 intro = "Tech Tapas"
 name = "Ohad Dahan"
-description = "Short format blog on tech"
+description = "bite sized blogs about various tech topics"
 
 # Allow to override webmanifest options
 [Languages.en-us.params.webmanifest]
