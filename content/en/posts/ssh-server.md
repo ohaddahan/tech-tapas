@@ -1,6 +1,6 @@
 +++
 title = 'How to secure SSH server'
-date = 2024-01-28T09:22:33+02:00
+date = 2024-01-01T09:22:33+02:00
 draft = false
 +++
 
