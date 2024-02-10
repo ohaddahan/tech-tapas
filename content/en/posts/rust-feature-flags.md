@@ -132,7 +132,7 @@ async fn boo(client: Arc<ProductionClient>) {
 So in regular mode, `test-client` feature is not enabled.
 And I just needed to add `--features test-client` to my `cargo test` commands.
 While this looks dirty since I have duplicate code, if I would use the same `method`
-it would still need two different implementations due to differences in `clients`.
+it would still need two different internal implementations with a `match` clause due to differences in `clients`.
 
 ## References
 
