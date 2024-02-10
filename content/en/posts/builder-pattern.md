@@ -147,6 +147,6 @@ fn main() {
 
 ## References
 
-- [builder code](https://github.com/ohaddahan/tech-tapes/tree/master/examlpes/builder/src/main.rs)
+- [builder code](https://github.com/ohaddahan/tech-tapas/tree/master/examlpes/builder/src/main.rs)
 - [Builder Pattern](https://en.wikipedia.org/wiki/Builder_pattern)
 - [Builder](https://refactoring.guru/design-patterns/builder)
