@@ -41,6 +41,11 @@ This `hook` simple creates a new `branch` and `push` it, and returns to the orig
 
 Simple yet highly effective.
 
+### Caveats
+
+[git hooks](https://git-scm.com/docs/githooks) are shared by default when someone `clone` a repository, so be careful
+and ensure all users set them up.
+
 ## Tip #2: fsmonitor daemon
 
 [fsmonitor--daemon](https://git-scm.com/docs/git-fsmonitor--daemon) improves performance of `git` commands by listening
@@ -48,10 +53,14 @@ to file system changes and updating the index accordingly.
 
 This is very significant for large repositories and have little down side to using it.
 
-## Caveats
+## Tip #3: useful aliases
 
-[git hooks](https://git-scm.com/docs/githooks) are shared by default when someone `clone` a repository, so be careful
-and ensure all users set them up.
+1. Merged branches: `alias gitmerged="git branch --merged master | grep -v master"`
+2. Branches by creation
+   date: `alias gitbrachbydate="git for-each-ref --sort=committerdate --format='%(committerdate:short) %(refname:short)' refs/heads"`.
+3. Show last commit: `alias gitlastcommit="git log -1 --pretty=format:%H"`.
+4. Verbose remote: `alias gitremoteverbose="git remote --verbose"`.
+5. Git daemon status: `alias gitfsmonitor_status='git fsmonitor--daemon status'`
 
 ## References
 
